@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+    .container {
+        position: relative;
+        width: 50%;
+    }
+
+    .image {
+        opacity: 1;
+        display: block;
+        max-width: 300px;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+    }
+
+    .middle {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%)
+      }
+
+    .container:hover .image {
+        opacity: 0.3;
+    }
+
+    .container:hover .middle {
+        opacity: 1;
+    }
+
+    .topnav {
+        overflow: hidden;
+        background-color: #111;
+    }
+
+    .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 30px;
+    }
+
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+    .topnav a.active {
+        background-color: #4CAF50;
+        color: white;
+    }
+    </style>
+</head>
+<body>
+
+<div class="topnav">
+    <a href="http://127.0.0.1:8080"> Servizi AUSL Romagna</a>
+    <a class="active" href="http://127.0.0.1:8080/info.pdf" download="info.pdf" style="float: right">Download info pdf</a>
+</div>
+<br>
+<br>
+<table align="center">
+</table>
+</body>
+</html>
+<th><h2><center>Lista dei Servizi di Cardiologia</center></h2></th></tr>
+        
+        <br>
+        <br>
+        <center>
+        <a href="https://www.ao.pr.it/curarsi/reparti-e-servizi-sanitari/cardiologia/"> Cardiologia </a>
+        </center>
+        
+        <br>
+        <br>
+        <center>
+        <a href="https://www.ao.pr.it/curarsi/reparti-e-servizi-sanitari/cardiologia-interventistica/"> Cardiologia Interventistica </a>
+        </center>
+        
+        <br>
+        <br>
+        <center>
+        <a href="https://www.ao.pr.it/curarsi/reparti-e-servizi-sanitari/cardiologia-pediatrica/"> Cardiologia Pediatrica </a>
+        </center>
+        
